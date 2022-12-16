@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https: //fonts.googleapis.com/css2?family= Fjalla +One & display=swap" rel="stylesheet">
+    <title>Portifolio</title>
+</head>
+
+<style>
+.html {
+    scroll-behavior:smooth
+}
+
+
+
+body {
+    margin:0;
+    font-family: 'Fjalla One', sans-serif 
+}
+ #topMenu {
+    display:flex;
+    background-color:#302f2f;
+    margin:0;
+ }
+#topMenu li {
+    color:white;
+    text-decoration: nome;
+    display:black;
+    padding:15px;
+}
+#topMenu li:first-child {
+    margin-right: auto;
+}
+
+.section1 { 
+    display:flex;
+    height:33vh;
+    background-color:blue;
+
+}
+.section2{
+    display: flex;
+    background-color: whitesmoke;
+    width:33vh;
+}
+
+.section3 {
+    display: flex;
+    background-color: wheat;
+    width:33vh;
+}
+
+
+.section4 {
+    display: flex;
+    background-color: antiquewhite;
+    width:33vh;
+}
+
+.centralize{
+    margin:auto;
+    text-align: center;
+
+}
+
+
+
+.imagemProjeto{
+    width: 15vw;
+    height: 15vw;
+    padding-left:15px;
+
+}
+.footer {
+    background-color: black:#302f2f;
+    padding: 30px;
+    color: white
+}
+
+</style>
+<body>
+    <nav >
+        <ul id="topMenu"> 
+            <li>Logo</li>
+            <li>Home</li>
+            <li>Projetos</li>
+            <li>Contato</li>
+
+        </ul>
+    </nav>
+    <di class="section1">
+        <div class="centralize">
+            <h1 style="color:white">Douglas</h1>
+            <a href="#projetos"><button> Meus Projetos</button></a>
+
+        </div>
+
+    </di>
+    <div id="projetos" class="section2 centralize">
+        <table>
+             <tr>
+                  <td style="width:40%"><img class="imagemProjeto" src="imagemtech.jpg" alt=""></td>
+                  <td style="width:60%;text-align:left">
+                    <ul style="color:rgb(20, 20, 193)">
+                    Projeto 1
+                    <hr>
+                    <li>Descrição do projeto Descrição do projeto  Descrição do projeto
+                    Descrição do projeto</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+
+             </tr></ul>
+        </table>
+    </div>
+
+    <div id="projetos" class="section3 centralize">
+        <table>
+             <tr>
+                  
+                    <ul style="color:rgb(12, 12, 159)">
+                    Projeto 2
+                    <hr>
+                    <li>Descrição do projeto Descrição do projeto Descrição do projeto
+                    Descrição do projeto Descrição do projeto</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+                    <td style="width:40%"><img class="imagemProjeto" src="imagemtech.jpg" alt=""></td>
+                    <td style="width:60%;text-align:left">
+
+             </tr></ul>
+        </table>
+    </div>
+
+
+    <div id="projetos" class="section4 centralize">
+        <table>
+             <tr>
+                  <td style="width:40%"><img class="imagemProjeto" src="imagemtech.jpg" alt=""></td>
+                  <td style="width:60%;text-align:left">
+                    <ul style="color:rgb(15, 15, 220)">
+                    Projeto 3
+                    <hr>
+                    <li>Descrição do projeto Descrição do projeto Descrição do projeto
+                    Descrição do projeto Descrição do projeto Descrição do projeto</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+                    <li>Tecnologia</li>
+
+             </tr></ul>
+        </table>
+    </div>
+    <footer>
+        <h5 class="centralize">@criado por Dougals</h5> 
+
+    </footer>
+</body>
+</html>
